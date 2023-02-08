@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WideChat</string>
+    <string name="chat">Chat</string>
+    <string name="contacts">Contatti</string>
+    <string name="settings">Impostazioni</string>
+    <string name="nothing">Vuoto</string>
+    <string name="write_message">Scrivi un messaggio...</string>
+    <string name="username">Username</string>
+    <string name="enter_message">Inserisci Messaggio</string>
+    <string name="text_toast0">Approva i permessi per selezionare le immagini</string>
+    <string name="status">Stato</string>
+    <string name="basic_status">Hey Ciao!</string>
+    <string name="search_friend">Cerca un amico</string>
+    <string name="login">Accedi</string>
+    <string name="login_error">"Inserisci l'email o la password "</string>
+    <string name="confirm_password">Conferma la password</string>
+    <string name="text_toast1">Compila tutti i campi</string>
+    <string name="text_toast2">Controlla la password</string>
+    <string name="text_toast3">"Impossibile aggiornare i tuoi dati "</string>
+    <string name="text_toast4">Caricamento dell\'avatar di Default fallito</string>
+    <string name="translation">Traduzione</string>
+    <string name="auto_translation">Auto Traduzione</string>
+    <string name="your_language">La tua lingua</string>
+    <string name="is_wrinting">sta scrivendo...</string>
+    <string name="save">Salva</string>
+    <string name="sign_up">Registrati</string>
+    <string name="confirm">Conferma</string>
+    <string name="search_user_error">Impossibile cercare utenti</string>
+    <string name="just_now">ora</string>
+    <string name="a_minute_ago">un minuto fa</string>
+    <string name="minutes_ago">minuti fa</string>
+    <string name="hours_ago">ore fa</string>
+    <string name="yesterday">ieri</string>
+    <string name="an_hour_ago">un\'ora fa</string>
+    <string name="days_ago">giorni fa</string>
+    <string name="mychat">Le mie chat</string>
+    <string name="no_user">Nessun utente trovato</string>
+</resources>

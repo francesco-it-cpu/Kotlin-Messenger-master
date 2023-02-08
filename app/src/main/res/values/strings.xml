@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">WideChat</string>
+    <string name="chat">Chat</string>
+    <string name="contacts">Contacts</string>
+    <string name="settings">Settings</string>
+    <string name="nothing">Nothing</string>
+    <string name="write_message">Write Message...</string>
+    <string name="username">Username</string>
+    <string name="enter_message">Enter Message</string>
+    <string name="text_toast0">Approve permission to select images</string>
+    <string name="status">Status</string>
+    <string name="basic_status">Hey There!</string>
+    <string name="search_friend">Search Friend</string>
+    <string name="mail" translatable="false">Mail</string>
+    <string name="password" translatable="false">Password</string>
+    <string name="login">Login</string>
+    <string name="login_error">Email or Password fields are required</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="text_toast1">Please fill out the fields</string>
+    <string name="text_toast2">Check your password</string>
+    <string name="text_toast3">It is impossible to update your data</string>
+    <string name="text_toast4">Default Avatar image loading failed</string>
+    <string name="translation">Translation</string>
+    <string name="auto_translation">Auto Translation</string>
+    <string name="your_language">Your Language</string>
+    <string name="is_wrinting">Is wrinting...</string>
+    <string name="save">Save</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="confirm">Confirm</string>
+    <string name="search_user_error">Failed to search user</string>
+    <string name="just_now">just now</string>
+    <string name="a_minute_ago">a minute ago</string>
+    <string name="minutes_ago">minutes ago</string>
+    <string name="an_hour_ago">an hour ago</string>
+    <string name="hours_ago">hours ago</string>
+    <string name="yesterday">yesterday</string>
+    <string name="days_ago">days ago</string>
+    <string name="mychat">My Chat</string>
+    <string name="no_user">No user found</string>
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="messageImage"
+            type="String" />
+
+        <variable
+            name="message"
+            type="com.example.kotlinmessenger.MessageModel" />
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:id="@+id/leftLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_centerVertical="true"
+            android:background="@drawable/left_side_background"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/txtMessage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxWidth="250dp"
+                android:singleLine="false"
+                android:text="@{message.message}"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle=""
+                android:visibility="@{message.type.equals(`text`)?View.VISIBLE:View.GONE}" />
+
+            <ImageView
+                imageMessage="@{message.message}"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                android:visibility="@{message.type.equals(`text`)?View.GONE:View.VISIBLE}" />
+            <!--android:src="@drawable/ic_launcher_background"/>-->
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/translateButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_toEndOf="@id/leftLayout"
+            android:layout_alignBottom="@id/leftLayout"
+            android:layout_toRightOf="@id/leftLayout"
+            android:background="@drawable/circle_backgrounf"
+            android:backgroundTint="@color/edittextColor"
+            android:padding="3dp"
+            android:src="@drawable/ic_translate"
+            android:visibility="@{message.type.equals(`text`)?View.VISIBLE:View.GONE}" />
+
+    </RelativeLayout>
+</layout>

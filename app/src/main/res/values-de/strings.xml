@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WideChat</string>
+    <string name="chat">Plaudern</string>
+    <string name="contacts">Kontakte</string>
+    <string name="settings">Einstellungen</string>
+    <string name="nothing">Gar nichts</string>
+    <string name="write_message">Nachricht schreiben...</string>
+    <string name="username">Nutzername</string>
+    <string name="enter_message">Nachricht eingeben</string>
+    <string name="text_toast0">Genehmigen Sie die Berechtigung zum Auswählen von Bildern</string>
+    <string name="status">Status</string>
+    <string name="basic_status">Sie da!</string>
+    <string name="search_friend">Freund suchen</string>
+    <string name="login">Anmeldung</string>
+    <string name="login_error">Die felder Email oder Passwort sind erforderlich</string>
+    <string name="confirm_password">Bestätige das Passwort</string>
+    <string name="text_toast1">Bitte füllen Sie die Felder aus</string>
+    <string name="text_toast2">Überprüfen Sie Ihr Passwort</string>
+    <string name="text_toast3">Es ist unmöglich, Ihre Daten zu aktualisieren</string>
+    <string name="text_toast4">Das Laden des Standard-Avatar-Bildes ist fehlgeschlagen</string>
+    <string name="translation">Übersetzung</string>
+    <string name="auto_translation">Automatische Übersetzung</string>
+    <string name="your_language">Ihre Sprache</string>
+    <string name="is_wrinting">schreibt...</string>
+    <string name="save">Schreibt</string>
+    <string name="sign_up">Anmeldung</string>
+    <string name="confirm">Bestätigen Sie</string>
+    <string name="search_user_error">Benutzer konnte nicht gesucht werden</string>
+    <string name="just_now">Grade eben</string>
+    <string name="a_minute_ago">vor einer Minute</string>
+    <string name="minutes_ago">vor ein paar Minuten</string>
+    <string name="an_hour_ago">vor einer Stunde</string>
+    <string name="hours_ago">Vor Stunden</string>
+    <string name="yesterday">gestern</string>
+    <string name="days_ago">vor tagen</string>
+    <string name="mychat">Meine Chats</string>
+    <string name="no_user">keine Benutzer gefunden</string>
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="messageImage"
+            type="String" />
+
+        <variable
+            name="message"
+            type="com.example.kotlinmessenger.MessageModel" />
+    </data>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:gravity="right">
+
+        <LinearLayout
+            android:id="@+id/rightLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:background="@drawable/right_side_background"
+            android:padding="2dp">
+
+            <TextView
+                android:id="@+id/txtMessage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:maxWidth="250dp"
+                android:singleLine="false"
+                android:text="@{message.message}"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle=""
+                android:visibility="@{message.type.equals(`text`)?View.VISIBLE:View.GONE}" />
+
+            <ImageView
+                imageMessage="@{message.message}"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                android:visibility="@{message.type.equals(`text`)?View.GONE:View.VISIBLE}" />
+                 <!--android:src="@drawable/ic_launcher_background"-->
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</layout>
